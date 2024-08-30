@@ -1,0 +1,22 @@
+#include <iostream>
+
+
+using namespace std;
+
+string firstName = "elly";
+string lastName = "mabel";
+
+string fullname(){
+return firstName + " " + lastName;
+}
+void printName(string firstName, string lastName){
+    cout<<" >>> Nama panggil Saya adalah <<<";
+    cout<<"\n-----" <<firstName; cout<<"------";
+   
+}
+int main()
+{
+    printName(firstName, lastName);
+    cout<< "\nNama lengkap saya adakah " <<fullname();
+    return 0;
+}
